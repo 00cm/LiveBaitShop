@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --dark-blue: #1c4b82;
+    --light-blue: #e3f6f6;
+    --grey: #c5d7e1;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* NAVIGATION */
+
+header {
+    background-color: var(--dark-blue);
+    margin: 0;
+}
+
+i,
+a {
+    color: var(--light-blue);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-bar,
+.logo,
+.account-cart {
+    width: 33%;
+    text-align: center;
+}
+
+.account-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation-links {
+    background-color: var(--light-blue);
+}
+
+.navigation-links a {
+    color: var(--dark-blue);
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+input {
+    padding: 5px 10px;
+}
+
+button {
+    background-color: var(--grey);
+    border: none;
+    padding: 8px 20px;
+}
+
+.icon-blue {
+    color: var(--dark-blue);
+}
+
+ul {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    list-style: none;
+}
+
+
+/* MAIN CONTENT */ 
+
+/* TABLE */
+
+/* CONTACT FORM */ 
+
+/* FOOTER */
+
+footer {
+    background-color: var(--dark-blue);
+    color: var(--light-blue);
+    text-align: center;
+}
+
+.submit {
+    background-color: var(--grey);
+    color: var(--dark-blue);
+    font-weight: 800;
+    border: none;
+    padding: 6px 15px;
+}
+
+/* RESPONSIVE DESIGNS */ 
