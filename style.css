@@ -241,14 +241,50 @@ td {
 
 /* CONTACT FORM */
 
-/* RESPONSE FORM */
+form {
+    display: flex;
+    justify-content: center;
+}
+
+legend {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+
+fieldset {
+    width: 30%;
+    display: flex;
+}
+
+.email {
+    justify-self: center;
+}
+
+label {
+    padding: 10px;
+}
+
+#submit {
+    background-color: var(--dark-blue);
+    color: white;
+    padding: 0 10px;
+    height: 86px;
+    font-weight: bold;
+}
+
+/* RESPONSES */
 
 .response-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
 }
+
 
 /* FOOTER */
 

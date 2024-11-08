@@ -46,10 +46,25 @@
         </nav>
     </header>
 
+    <form action="form-response.html" method="get">
+        <fieldset>
+            <label for="fname">First Name:
+                <input for="fname" id="fname" name="fname">
+            </label>
+            <label for="lnamelname">Last Name:
+                <input for="lname" id="lname" name="lname">
+            </label>
+            <label for="email">Email:
+                <input for="email" id="email" name="email">
+            </label>
+            <button type="submit" id="submit">SUBMIT</button>
+        </fieldset>
+    </form>
+
     <footer>
         <h3>JOIN OUR EMAIL LIST!</h3>
         <p>Get $10 off your first purchase over $40</p>
-        <form id="footer-form" action="form-response.html" method="get">
+        <form id="footer-form" action="email-response.html" method="get">
             <label for="email">Email:
                 <input type="email" name="email" id="email" required placeholder="baitlover@example.com">
             </label>
