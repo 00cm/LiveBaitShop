@@ -83,14 +83,14 @@ button {
     color: var(--dark-blue);
 }
 
-ul {
+.navigation-links ul {
     width: 50%;
     margin: auto;
     text-align: center;
     padding: 0;
 }
 
-li {
+.navigation-links li {
     display: inline;
     list-style: none;
 }
@@ -189,7 +189,55 @@ h2 {
     font-weight: 900;
 }
 
-/* TABLE */
+/* BAIT TABLE */
+
+.table-container {
+    background-color: var(--grey);
+    display: flex;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    height: 300px;
+}
+
+.bkgrd-2 {
+    background-color: var(--dark-blue);
+    justify-content: flex-end;
+    padding-right: 40px;
+}
+
+.bkgrd-1 {
+    background-color: var(--grey);
+    justify-content: flex-start;
+    padding-left: 40px;
+}
+
+.bkgrd-2 h2 {
+    color: white;
+}
+
+table {
+    background-color: white;
+    box-shadow: gray 2px 2px 5px;
+    margin: 20px 0px;
+    font-weight: 300;
+    width: 20%;
+}
+
+tbody {
+    height: 250px;
+}
+
+td {
+    padding: 5px;
+}
+
+.bait {
+    align-self: center;
+    text-align: center;
+    flex-grow: 8;
+    color: var(--dark-blue);
+    font-weight: 600;
+}
 
 /* CONTACT FORM */
 
@@ -223,4 +271,35 @@ h3 {
     padding: 6px 15px;
 }
 
+.contact-container {
+    display: flex;
+    justify-content: center;
+}
+
+.email, .phone {
+    font-style: italic;
+    margin: 0;
+}
+
+.col {
+    width: 30%;
+}
+
+.col ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.col ul li {
+    height: 40px;
+}
+
+address {
+    margin-top: 20px;
+}
+
+.signature {
+    margin-top: 20px;
+}
 /* RESPONSIVE DESIGNS */
