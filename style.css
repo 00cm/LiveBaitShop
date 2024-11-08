@@ -266,6 +266,11 @@ label {
     padding: 10px;
 }
 
+#text-box, #text-area {
+    display: block;
+}
+
+
 #submit {
     background-color: var(--dark-blue);
     color: white;
@@ -335,7 +340,75 @@ address {
     margin-top: 20px;
 }
 
+.email-link {
+    display: none;
+}
+
 .signature {
     margin-top: 20px;
 }
+
+
 /* RESPONSIVE DESIGNS */
+
+@media (max-width: 1450px) {
+    .logo {
+        display: none;
+    }
+}
+
+@media (max-width: 450px) {
+    /* Hide Upper Nav */
+    .container {
+        display: none;
+    }
+    /* Main Content Display */
+    .row-1-container {
+        background-image: none;
+        background-color: var(--dark-blue);
+        color: var(--light-blue);
+    }
+    .border-container {
+        width: 80%;
+    }
+    .card-2-p {
+        display: none;
+    }
+    .white {
+        font-size: 2em;
+    }
+    .button-row {
+        display: grid;
+
+    }
+    .btn-link {
+        background-color: var(--light-blue);
+        color: var(--dark-blue);
+    }
+    .list-offerings {
+        padding: 0px;
+    }
+    .list-offerings li {
+        color: var(--light-blue);
+    }
+    /* Bait Page */
+    .bait {
+        display: none;
+    }
+    .table-container {
+        height: 400px;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+    table {
+        width: 50%;
+    }
+    /* Footer Display */
+    .email {
+        display: none;
+    }
+    .email-link {
+        display: initial;
+    }
+}
